@@ -2,3 +2,5 @@
 /node_modules
 /pkg
 /pkg.tgz
+.github
+.history

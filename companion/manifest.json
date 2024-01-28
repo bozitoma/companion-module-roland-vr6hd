@@ -1,34 +1,26 @@
 {
-	"id": "roland-vr6hd",
-	"name": "roland-vr6hd",
-	"shortname": "vr6hd",
-	"description": "VR-6hd",
-	"version": "1.0.0",
-	"license": "MIT",
-	"repository": "git+https://github.com/cloudnativedaysjp/companion-module-roland-vr6hd.git",
-	"bugs": "https://github.com/cloudnativedaysjp/companion-module-roland-vr6hd/issues",
-	"maintainers": [
-		{
-			"name": "Joseph Adams",
-			"email": "josephdadams@gmail.com"
-		},
-		{
-			"name": "Kazuto Kusama",
-			"email": "jacopen@gmail.com"
-		}
-	],
-	"legacyIds": [],
-	"runtime": {
-		"type": "node18",
-		"api": "nodejs-ipc",
-		"apiVersion": "0.0.0",
-		"entrypoint": "../index.js"
-	},
-	"manufacturer": "Roland",
-	"products": [
-		"VR-6hd"
-	],
-	"keywords": [
-		"Video Switcher"
-	]
+  "id": "roland-vr6hd",
+  "name": "roland-vr6hd",
+  "shortname": "vr6hd",
+  "description": "VR-6hd",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "git+https://github.com/bozitoma/companion-module-roland-vr6hd",
+  "bugs": "https://github.com/bozitoma/companion-module-roland-vr6hd/issues",
+  "maintainers": [
+    {
+      "name": "bozitoma",
+      "email": "bozitoma@gmail.com"
+    }
+  ],
+  "legacyIds": [],
+  "runtime": {
+    "type": "node18",
+    "api": "nodejs-ipc",
+    "apiVersion": "0.0.0",
+    "entrypoint": "../index.js"
+  },
+  "manufacturer": "Roland",
+  "products": ["VR-6hd"],
+  "keywords": ["Video Switcher"]
 }
